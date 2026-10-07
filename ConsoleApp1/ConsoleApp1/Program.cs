@@ -199,11 +199,11 @@ namespace ConsoleApp1
             #region char degiskenler
 
 
-            char sembol;
+            //char sembol;
 
-            sembol = 'a';
+            //sembol = 'a';
 
-            Console.WriteLine(sembol);
+            //Console.WriteLine(sembol);
 
 
 
@@ -215,43 +215,127 @@ namespace ConsoleApp1
 
             #region Klavyeden Veri Girişleri String Değişkenler
 
-            Console.WriteLine("*******  Yolcu Bilgisi GİRNİZ******");
-            Console.WriteLine();
+            //Console.WriteLine("*******  Yolcu Bilgisi GİRNİZ******");
+            //Console.WriteLine();
 
-            String yolcuAdi, yolcuSoyadi, yolcuilce, yolcuSehir, yolcuYaş, yolcuKimlikNo;
+            //String yolcuAdi, yolcuSoyadi, yolcuilce, yolcuSehir, yolcuYaş, yolcuKimlikNo;
 
-            Console.Write("Yolcu Adı : ");
-            yolcuAdi = Console.ReadLine();
+            //Console.Write("Yolcu Adı : ");
+            //yolcuAdi = Console.ReadLine();
 
-            Console.Write("Yolcu Soyadi: ");
-            yolcuSoyadi = Console.ReadLine();
+            //Console.Write("Yolcu Soyadi: ");
+            //yolcuSoyadi = Console.ReadLine();
 
-            Console.Write("Yolcu İlçe: ");
-            yolcuilce = Console.ReadLine();
+            //Console.Write("Yolcu İlçe: ");
+            //yolcuilce = Console.ReadLine();
 
-            Console.Write("Yolcu Şehir: ");
-            yolcuSehir = Console.ReadLine();
+            //Console.Write("Yolcu Şehir: ");
+            //yolcuSehir = Console.ReadLine();
 
-            Console.Write("Yolcu Yaşı: ");
-            yolcuYaş = Console.ReadLine();
+            //Console.Write("Yolcu Yaşı: ");
+            //yolcuYaş = Console.ReadLine();
 
-            Console.Write("Yolcu Kimlik No: ");
-            yolcuKimlikNo = Console.ReadLine();
+            //Console.Write("Yolcu Kimlik No: ");
+            //yolcuKimlikNo = Console.ReadLine();
 
-            Console.WriteLine();
-            Console.WriteLine("******* CSharp Hava yolları Yolcu Bilgisi******");
-            Console.WriteLine("Yolcu Bilgileri:");
-            Console.WriteLine("Adı: " + yolcuAdi);
-            Console.WriteLine("Soyadı: " + yolcuSoyadi);
-            Console.WriteLine("İlçe: " + yolcuilce);
-            Console.WriteLine("Şehir: " + yolcuSehir);
-            Console.WriteLine("Yaşı: " + yolcuYaş);
-            Console.WriteLine("Kimlik No: " + yolcuKimlikNo);
-            Console.WriteLine("******* CSharp Hava yolları Yolcu Bilgisi******");
+            //Console.WriteLine();
+            //Console.WriteLine("******* CSharp Hava yolları Yolcu Bilgisi******");
+            //Console.WriteLine("Yolcu Bilgileri:");
+            //Console.WriteLine("Adı: " + yolcuAdi);
+            //Console.WriteLine("Soyadı: " + yolcuSoyadi);
+            //Console.WriteLine("İlçe: " + yolcuilce);
+            //Console.WriteLine("Şehir: " + yolcuSehir);
+            //Console.WriteLine("Yaşı: " + yolcuYaş);
+            //Console.WriteLine("Kimlik No: " + yolcuKimlikNo);
+            //Console.WriteLine("******* CSharp Hava yolları Yolcu Bilgisi******");
+            #endregion
+
+            #region Klavyeden Tam sayi girişleri
+
+
+            //int ayakkabiFiyati, bilgisayarFiyati, koltukFiyati, televizyonFiyati;
+
+            //ayakkabiFiyati = 3000;
+            //bilgisayarFiyati = 20000;
+            //koltukFiyati = 5000;
+            //televizyonFiyati = 1000;
+
+
+            //int ayakkabiSayisi, bilgisayarSayisi, koltukSayisi, televizyonSayisi;
+
+            //Console.Write("Lütfen aldığınız ayakkabı sayısını giriniz:");
+            //ayakkabiSayisi=int.Parse(Console.ReadLine());
+
+            //Console.Write("Lütfen aldığınız bilgisayar sayısını giriniz:");
+            //bilgisayarSayisi = int.Parse(Console.ReadLine());
+
+
+            //Console.Write("Lütfen aldığınız koltuk sayısını giriniz:");
+            //koltukSayisi = int.Parse(Console.ReadLine());
+
+
+            //Console.Write("Lütfen aldığınız TV sayısını giriniz:");
+            //televizyonSayisi = int.Parse(Console.ReadLine());
+
+            //int toplamFiyat = ((ayakkabiSayisi * ayakkabiFiyati) + (bilgisayarSayisi * bilgisayarFiyati) + (koltukSayisi * koltukFiyati) + (televizyonSayisi * televizyonFiyati));
+
+            //Console.WriteLine();
+            //Console.WriteLine("Toplam ödemeniz gereken fiyat : "+toplamFiyat);
+
             #endregion
 
 
+            #region Klavyedenn Ondalıklı Sayi Girişleri
 
+            //double sinav1, sinav2, sinav3, sonuc;
+
+            //Console.Write("Lütfen 1. sınav notunu giriniz: ");
+            //sinav1 = double.Parse(Console.ReadLine());
+
+            //Console.Write("Lütfen 2. sınav notunu giriniz:  ");
+            //sinav2 = double.Parse(Console.ReadLine());
+
+            //Console.Write("Lütfen 3. sınav notunu giriniz: ");
+            //sinav3 = double.Parse(Console.ReadLine());
+
+
+            //sonuc = (sinav1 + sinav2 + sinav3) / 3;
+
+            //Console.WriteLine();
+            //Console.WriteLine(" Sınav Ortalamması:"+sonuc);
+
+
+            //Random rastgele=new Random();
+
+            //int sinav1 = rastgele.Next(1, 50);
+            //int sinav2 = rastgele.Next(1, 50);
+            //int sinav3 = rastgele.Next(1, 50);
+
+            //double ortalama= (sinav1+sinav2+ sinav3)/3;
+            //Console.WriteLine(sinav1);
+            //Console.WriteLine(sinav2);
+            //Console.WriteLine(sinav3);
+            //Console.WriteLine();
+            //Console.WriteLine(ortalama);
+
+
+
+
+            #endregion
+
+            #region Klavyeden karakter Girişleri
+
+            //char cinsiyet;
+
+            //Console.Write("Lütfen cinsiyet seçiniz");
+            //cinsiyet=char.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Seçtiğiniz cinsiyet: "+ cinsiyet);
+
+            #endregion
+
+
+            Console.Read();
 
 
 
