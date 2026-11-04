@@ -335,6 +335,132 @@ namespace ConsoleApp1
             #endregion
 
 
+            #region if else
+
+            //Console.WriteLine("Lütfen şifreyi giriniz:");
+
+            //string sifre;
+
+            //sifre= Console.ReadLine();
+
+            //if (sifre == "123")
+            //{
+            //    Console.WriteLine("Şifre Doğru");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Şifre Yanlış");
+            //}
+
+
+            //String baskent, ulke;
+
+            //Console.WriteLine("Baskenti giriniz");
+            //baskent= Console.ReadLine();
+
+            //Console.WriteLine("Ülkeyi giriniz");
+            //ulke= Console.ReadLine();
+
+
+            //if(baskent == "Ankara" && ulke == "Türkiye")
+            //{
+            //    Console.WriteLine("Doğru");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Yanlış");
+            //}
+
+
+
+            //int sayi;
+            //Console.WriteLine("Sayi giriniz:");
+            //sayi = int.Parse(Console.ReadLine());
+            //if (sayi == 5)
+            //{
+            //    Console.WriteLine("sayi doğru tahmin edilid");
+
+            //}else
+            //{
+            //    Console.WriteLine("sayi yanlış tahmin edildi");
+            //}
+
+
+            //int sinav1, sinav2, sinav3,ortalama;
+
+            //string sonuc = "Hata";
+
+
+            //Console.WriteLine("Sinav 1 : ");
+            //sinav1 = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Sinav 2 : ");
+            //sinav2 = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Sinav 3 : ");
+            //sinav3 = int.Parse(Console.ReadLine());
+
+
+            //ortalama = (sinav1 + sinav2 + sinav3) / 3;
+            //Console.WriteLine("Sınavların ortalaması : "+ortalama);
+
+            //if(ortalama>0 && ortalama <= 50)
+            //{
+            //    sonuc = "Sonuc Vasat";
+            //}
+            //if (ortalama >= 50 && ortalama < 70)
+            //{
+            //    sonuc = "Sonuc Orta";
+            //}
+            //if(ortalama> 70 && ortalama <= 84)
+            //{
+            //    sonuc = "Sonuc İyi";
+            //}
+            //if (ortalama > 85 && ortalama <= 100)
+            //{
+            //    sonuc = "Sonuc Pekiyi";
+            //}
+
+            //string sehir;
+            //Console.WriteLine("Lüften şehir giriniz:");
+            //sehir = Console.ReadLine();
+
+
+            //if( sehir== "adana" | sehir== "Ankara"| sehir== "bursa"| sehir=="trabzon")
+            //{
+            //    Console.WriteLine("sehir mevcut");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("sehir mevcut değil");
+            //}
+
+
+            Console.WriteLine("Lüfen kullannııcı adını giriniz:");
+            string kullaniciadi = Console.ReadLine();
+
+
+            if(kullaniciadi != "admin")
+            {
+                Console.WriteLine("bu kullanoco adı kabul edilemez");
+            }
+            else
+            {
+                Console.WriteLine("kullanıcı adı kabul edildi");
+            }
+
+
+            //Console.WriteLine("Sonuç: " + sonuc);
+
+
+
+
+
+
+
+            #endregion
+
+
             Console.Read();
 
 
